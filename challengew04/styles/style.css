@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(224, 153, 177);
+}
+header{
+    color: white;
+
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: white   
+}
+p{
+    text-align: center;
+    color: white 
+          
+}
+footer{
+    text-align: center;
+}
+p{
+    
+  padding: 50px;
+}
+ol{
+    text-align: center;
+}
+
+img{
+    width: 15%;
+  display: block;
+  margin: 0 auto;
+}
+h1:hover {
+    color: black;
+  }
