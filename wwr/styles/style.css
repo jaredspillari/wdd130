@@ -244,4 +244,22 @@ nav{
         margin-top: 25px;
     }
 }
-  
+.event{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364
+} 
+.book_e{
+    background-color: #ade8f4;
+    font-family: 'Papyrus','Brush Script MT', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-left: -10%;
+    border-radius: 40px;
+
+}
+.book_e{
+    color: white;
+    
+}
