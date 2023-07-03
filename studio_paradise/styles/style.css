@@ -1,0 +1,125 @@
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.logo{
+    width: 110px;
+}
+header{
+    display: grid;
+    background-color: #08A59E;
+    grid-template-columns: 75px auto; 
+}
+main 
+section{
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: #E4F0EF;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: #E4F0EF;
+    color: #14CCC9; 
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+#nail{
+    display: grid;
+    grid-template-columns:   1fr;
+    margin-top: -100px;
+    justify-self: center;
+    text-align: center;
+}
+#nail-box{
+    grid-column: 1;
+    z-index: -1;
+    width: 100%;  
+}
+#nail-img{
+    width: 100%;
+}
+#nail-msg h1,
+#nail-msg h4 {
+    text-align: center;
+    color: #14CCC9;
+}
+
+.home-title {
+    font-family: 'Lobster Two','Papyrus', sans-serif;
+    font-size: 2em;
+    margin-top: -24cm; 
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.manicure-card ,
+.gelish-card{
+    margin: 100px 0;
+}
+.manicure-card{
+    grid-column-start: 1;
+        
+}
+.gelish-card{
+    grid-column-end: 4;
+    
+}
+.mountains{
+
+    width: 100%;
+    grid-column: 1/5;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover {
+    opacity: .5;
+    transform: scale(.9);
+}
+.card-img {
+    border: 15px solid #08A59E; 
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #0e3039;
+    width: 150%;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #08A59E;
+    color: white;  
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    color: white;  
+    font-family: 'Lobster Two','Papyrus', sans-serif;
+    font-size: 2em; 
+    padding-bottom: 15px;
+}
+body{
+    background-color: white;
+    font-family: 'Lobster Two','Papyrus', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+    color: #14CCC9;
+    text-align: center;
+}
+.msg{
+    background-color: #08A59E;
+    line-height: 2em;
+    padding: 10px;
+    grid-column: 1/4;
+    box-shadow: 5px 5px 100px #303f07;
+}
