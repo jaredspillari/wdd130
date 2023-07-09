@@ -54,10 +54,25 @@ nav{
     font-size: 2em;
     margin-top: -24cm; 
 }
+.home-title-promotions{
+  
+  font-family: 'Lobster Two','Papyrus', sans-serif;
+  font-size: 2em;
+  margin-top: -20cm; 
+}
+
 .home-grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 
+}
+.promotion-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+}
+.promotion-month00{
+  grid-column: 2;
 }
 .manicure-card ,
 .gelish-card{
@@ -222,3 +237,7 @@ h2 {
   .demo:hover {
     opacity: 1;
   }
+img{
+  float: left;
+}
+
